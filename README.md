@@ -23,11 +23,11 @@ pip install win10toast watchdog
 
 Save the script to a file on your computer. For example, you might save it as document_monitor.py in your Documents directory.
 
-Step 3: Identify the Document to Monitor
+Identify the Document to Monitor
 
 Decide which document you want the script to monitor. You'll need to know the full path to this document.
 
-Step 4: Decide Where to Save the Report
+Decide Where to Save the Report
 
 Choose a location to save the report that the script will generate. You'll need to know the full path to this location. Note that the script will append to this report each time it detects a change, so if you want to start fresh, you'll need to delete or rename the old report.
 
