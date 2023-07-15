@@ -1,0 +1,23 @@
+
+Command-line Guide for Document Monitor Script
+
+This script monitors a specified document for changes and records the updates along with the time of the modification in a report file. 
+
+Here is a guide for the command-line options:
+
+1. --document_path: Specify the path to the document to monitor. Include the full path to the document, including the document's filename and extension. This option is required.
+   Example: --document_path "C:\path\to\your\document.txt"
+
+2. --interval: Specify how often the script checks the document for changes, in seconds. This option is optional and defaults to 10 seconds if not specified.
+   Example: --interval 15
+
+3. --report_path: Specify where to save the report that the script generates. Include the full path to the location, including the desired filename and extension for the report. This option is required.
+   Example: --report_path "C:\path\to\your\report.txt"
+
+To run the script, open a command prompt, navigate to the directory containing the script, and enter a command like:
+
+python document_monitor.py --document_path "C:\path\to\your\document.txt" --interval 15 --report_path "C:\path\to\your\report.txt"
+
+Replace "C:\path\to\your\document.txt" with the path to the document you want to monitor, 15 with your desired interval in seconds, and "C:\path\to\your\report.txt" with the path to your report file.
+
+To stop the script, press Ctrl+C in the command prompt.
